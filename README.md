@@ -3,7 +3,7 @@
 CuSOM is a CUDA implementation of [Self Organizing Map](https://en.wikipedia.org/wiki/Self-organizing_map).
 
 ### Important
-It was developed for accademic purpose, some features are not available or need to be modified.
+It was developed for academic purpose, some features are not available or need to be modified.
 
 ## Prerequisites
 
