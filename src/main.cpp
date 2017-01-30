@@ -1,4 +1,4 @@
-#include "main.hpp"
+#include "../header/main.hpp"
 
 void generateUniformRandomArray(double *input, int size) {
   	for (int i = 0; i < size; ++i) {
@@ -56,17 +56,6 @@ int main(int argc, char *argv[]) {
 	double learningRate = cmd.get<double>("lr");
 
 	bool showTrainingColorMap = cmd.exist("train-color-map");
-
-	// if (argc > 0) {
-	// 	rows = atoi(argv[1]);
-	// 	cols = atoi(argv[2]);
-	// 	weightSize = atoi(argv[3]);
-	// 	numInputs = atoi(argv[4]);
-	// 	epoch = atoi(argv[5]);
-	// 	learningRate = atof(argv[6]);
-	// } else {
-	// 	cout << "Error no inputs" << endl;
-	// }
 
 	int inputsSizeOf = numInputs*weightSize*sizeof(double);
 	int inputsSize = numInputs*weightSize;

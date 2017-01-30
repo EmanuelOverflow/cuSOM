@@ -1,4 +1,4 @@
-#include "codebook.hpp"
+#include "../header/codebook.hpp"
 
 Codebook::Codebook(int weightSize) {
 	mWeightSize = weightSize;

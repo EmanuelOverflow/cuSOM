@@ -1,4 +1,4 @@
-#include "cuMain.cuh"
+#include "../header/cuMain.cuh"
 
 void readCSVDataset(int numInputs, int weightSize, double *trainingSet) {
 	ifstream file ( "dataset/boston/input.in" );

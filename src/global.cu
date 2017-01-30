@@ -1,4 +1,4 @@
-#include "global.cuh"
+#include "../header/global.cuh"
 
 __host__ __device__ double learningDecay(double learningRate, int currentEpoch, int totalEpoch) {
 	return learningRate * exp(- (double) currentEpoch / totalEpoch);

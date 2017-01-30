@@ -1,4 +1,4 @@
-#include "serialSOM.hpp"
+#include "../header/serialSOM.hpp"
 
 // MAGARI PROVAMI PRIMA DI FARE I TEST
 serialSOM::serialSOM(int rows, int cols, int size, int epoch, double learningRate, int type, bool randomInit, int device) : mRows(rows), mCols(cols), mWeightSize(size), mEpoch(epoch), mLearningRate(learningRate) {
